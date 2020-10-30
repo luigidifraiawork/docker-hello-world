@@ -1,5 +1,5 @@
 # docker-hello-world
-Sample image to test Docker deployments, based on the original version by Tutumi (a startup company that was acquired by Docker).
+Sample image to test Docker deployments, based on the original version by Tutum (a startup company that was acquired by Docker).
 
 ## Usage
 To create the image `user/hello-world`, execute the following command within the docker-hello-world folder:
