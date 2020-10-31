@@ -59,9 +59,9 @@ Example output:
 </html>
 ```
 
-## NGINX access log
-Run the following:
+## NGINX access and error logs
+NGINX access and error logs are diverted to stdout and stderr respectively, so they can be accessed with:
 
 ```
-docker exec -it 3b89a0a0a75f tail -f /var/log/nginx/access.log
+docker logs -f 3b89a0a0a75f
 ```
