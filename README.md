@@ -18,13 +18,13 @@ sudo docker push user/hello-world
 Start your image:
 
 ```
-docker run -d -p 80 user/hello-world
+docker run -d -p 8080 -t user/hello-world
 ```
 
 It will print the new container ID (like `3b89a0a0a75f`). Get the allocated external port:
 
 ```
-docker port 3b89a0a0a75f 80
+docker port 3b89a0a0a75f 8080
 ```
 
 It will print the allocated port (like 32768). Test your deployment:
